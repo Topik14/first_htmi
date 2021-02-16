@@ -1,0 +1,21 @@
+tuknut ! a dat enter a vyvori sa zakaldna struktura
+
+ctrl enter dalsi riadok 
+
+lorem100 prida 100 sloov v paragrafe
+
+sift alt sipka pre kopirovanie
+
+ctrl sipka - posuvanie po slovach
+
+li*4 enter -- da mi 4 li tagy
+
+ctr d oznacim si vsteky pdoobne hotnoty a mozem prepisat
+
+shift tab naspat tab
+
+unsplash.io obrazky
+
+div#about robno hodi id na about pre div netreba ani pisat div
+
+outline: 3px solid farba

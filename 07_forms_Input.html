@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms an inputs</title>
+</head>
+<body>
+  <form action="process.php">  <!--tahanie veci z databzay-->
+    <div>
+      <!--Text input-->
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name">  <!--pri rovnakej hodnote for a id je mozne po liknuti na hodnotu pisat do textu tiez name sluzi na spojenei databazy-->
+    </div>
+    <div>
+      <!--email input-->
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="zadaj email">
+    </div>
+    <div>
+      <!--area input-->
+      <label for="message">Message</label><br>
+      <textarea name="message" id="message" cols="5" rows="10"></textarea>  <!--rows a cols collumn-->
+    </div>
+    <div>
+      <!--select-->
+      <label for="pohlavie">Pohlavie</label>
+      <select name="pohlavie" id="pohlavie" >
+        <option value="muz" selected>Muz</option>
+        <option value="zena">zena</option>
+      </select>
+    </div>
+    <div>
+      <!--number input-->
+      <label for="age">Vek</label>
+      <input type="number" id="age" name="age">
+    </div>
+    <div>
+      <!--date input-->
+      <label for="narodeniny">Narodeniny</label>
+      <input type="date" name="narodeniny" id="narodeniny">
+    </div>
+    <div>
+      <!--radio input-->
+      <label for="clenstvo">Clenstvo</label> <!--jedno ceknutie-->
+      <input type="radio" name="clenstvo" id="clenstvo" value="simple">Simple
+      <input type="radio" name="clenstvo" id="clenstvo" value checked="standard">Standard
+      <input type="radio" name="clenstvo" id="clenstvo" value="super">Super
+    </div>
+
+    <div>
+      <!-- checkbox input-->
+      <label for="Tvoje hobby">Clenstvo</label>   <!--viacero ceknuti naraz-->
+      <input type="checkbox" name="hobbys" id="hobbys" value="bike">Bike
+      <input type="checkbox" name="hobbys" id="hobbys" value checked="futbal">Futbal
+      <input type="checkbox" name="hobbys" id="hobbys" value="hokej">hokej
+    </div>
+      <input type="submit" value="Posli">
+      <!--submit s buttonom-->
+      <button type="submit">Posli</button>
+
+      <!--resetne vsetko vo forme-->
+      <button type="reset">Reset</button>
+
+    <div>
+
+    </div>
+  </form>
+</body>
+</html>
